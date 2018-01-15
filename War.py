@@ -114,7 +114,7 @@ def main(argv):
     if mode == 'fair':
         winner, winner_counts = run_fair_game(num_ranks=num_ranks, num_suits=num_suits)
     elif mode == 'comeback':
-        winner, winner_counts = run_fair_game(num_ranks=num_ranks, num_suits=num_suits)
+        winner, winner_counts = run_comeback_game(num_ranks=num_ranks, num_suits=num_suits)
     else:
         print('Unknown mode', mode)
         return
